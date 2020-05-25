@@ -6,8 +6,6 @@
 //  Copyright © 2019 itonghui. All rights reserved.
 //  一套常用控件的二次封装库
 //  基于 masonry sdwebimage sdphotobrowser框架 无需引入多余框架
-//  实现组件化开发，简化开发难度提升效率，持续更新中
-//  因为由于行业差异、效果图设计，每个项目常用的控件是不一样的，这里提供一个思路，建议在开发或者UI重构前期与产品经理沟通后，开发自己项目的一套组件库使用，可能节省很多的时间
 
 #import "THSortView.h"          /* 排序布局*/
 #import "THFormView.h"          /* 表单封装*/
