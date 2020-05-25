@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+
+inhibit_all_warnings!               #忽略全部警告
+
+target 'THKitProject' do
+
+
+pod 'AFNetworking'	        	#网络请求框架
+pod 'SDWebImage', '~> 5.0.0'            #加载网络图片，实现缓存效果
+pod 'MJRefresh'                         #快速集成下拉刷新、上拉更多
+end

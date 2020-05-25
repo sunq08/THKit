@@ -1,0 +1,21 @@
+//
+//  Globle-pch.pch
+//  ProjiectFunctionList
+//
+//  Created by 夏梦雷 on 2020/1/7.
+//  Copyright © 2020 夏梦雷. All rights reserved.
+//
+
+#ifndef Globle_pch_pch
+#define Globle_pch_pch
+
+#pragma mark - 常用文件
+#import "THKit.h"               //便捷快发
+
+#pragma mark - 第三方库
+#import "Masonry.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <MJRefresh/MJRefresh.h>
+
+#endif /* Globle_pch_pch */
