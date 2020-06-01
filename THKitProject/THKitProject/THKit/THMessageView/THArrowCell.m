@@ -81,7 +81,7 @@ static const CGFloat THMSGIconW    = 21.0;//图标宽高
 - (UIImageView *)arrowImg{
     if(!_arrowImg){
         _arrowImg = [[UIImageView alloc]init];
-        _arrowImg.image = [UIImage imageNamed:@"th-cell"];
+        _arrowImg.image = [UIImage imageNamed:@"th-arrow"];
     }
     return _arrowImg;
 }

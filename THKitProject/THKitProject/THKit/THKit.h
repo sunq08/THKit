@@ -13,8 +13,9 @@
 #import "THScreenView.h"        /* 筛选弹窗*/
 #import "THTextFieldPicker.h"   /* 选择器*/
 #import "THDateFieldPicker.h"   /* 时间选择器*/
-#import "THTextField.h"         /* 左边titlelabel，右边textfiled view*/
+#import "THTextField.h"
 #import "THMessageView.h"       /* 左边titlelabel，右边detaillabel view*/
+#import "THTextFieldView.h"     /* 左边titlelabel，右边textfiled view*/
 #import "THArrowCell.h"         /* 带箭头的 title detail view*/
 #import "THCardView.h"          /* 卡片视图单选、多选*/
 #import "THDataPresentView.h"   /* 内容展示view*/

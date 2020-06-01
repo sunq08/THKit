@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4119D297247F9CCB00F895BE /* lanch-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4119D296247F9CCA00F895BE /* lanch-bg.png */; };
+		4119D299247F9CFB00F895BE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4119D298247F9CFB00F895BE /* Launch Screen.storyboard */; };
 		413284322470EE6700BE462F /* DemoTHSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413284312470EE6700BE462F /* DemoTHSortViewController.m */; };
 		413284352470EEB500BE462F /* DemoTHCommonTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413284342470EEB500BE462F /* DemoTHCommonTableController.m */; };
 		413284382470EEDB00BE462F /* DemoTHFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413284372470EEDB00BE462F /* DemoTHFormViewController.m */; };
@@ -14,6 +16,8 @@
 		41358AF72479E16600166E79 /* CombinationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41358AF62479E16600166E79 /* CombinationListController.m */; };
 		4140FDD4247BBA770033CB91 /* DemoTHPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140FDD3247BBA770033CB91 /* DemoTHPresentViewController.m */; };
 		4140FDD6247BBF200033CB91 /* th-base-del.png in Resources */ = {isa = PBXBuildFile; fileRef = 4140FDD5247BBF200033CB91 /* th-base-del.png */; };
+		41776FF42481004A0006AE91 /* THTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41776FF32481004A0006AE91 /* THTextFieldView.m */; };
+		41776FF7248101EE0006AE91 /* DemoTHTextFiledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41776FF6248101EE0006AE91 /* DemoTHTextFiledViewController.m */; };
 		41A02AC02477CB0300478CBE /* THArrowCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A02ABF2477CB0200478CBE /* THArrowCell.png */; };
 		41A5695E247629B300E4D668 /* DemoMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A5695D247629B300E4D668 /* DemoMenuController.m */; };
 		41A5696124765E6800E4D668 /* DemoBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A5696024765E6800E4D668 /* DemoBaseController.m */; };
@@ -27,9 +31,9 @@
 		41BFBC5424757737006BFE7A /* DemoTHScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BFBC5324757737006BFE7A /* DemoTHScreenViewController.m */; };
 		41C5B9722470AC2500446DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C5B9712470AC2500446DB4 /* AppDelegate.m */; };
 		41C5B97D2470AC3200446DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C5B97C2470AC3200446DB4 /* Assets.xcassets */; };
-		41C5B9802470AC3200446DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C5B97E2470AC3200446DB4 /* LaunchScreen.storyboard */; };
 		41C5B9832470AC3200446DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C5B9822470AC3200446DB4 /* main.m */; };
 		41C5B9902470C89A00446DB4 /* DemoTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C5B98F2470C89A00446DB4 /* DemoTabController.m */; };
+		41CD7E552484A8DE00D6A608 /* THTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD7E542484A8DE00D6A608 /* THTextView.m */; };
 		41CDAA012473CB72008899A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDA9E92473CB71008899A0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		41CDAA022473CB72008899A0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDA9F22473CB71008899A0 /* ViewController+MASAdditions.m */; };
 		41CDAA032473CB72008899A0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDA9F62473CB71008899A0 /* MASCompositeConstraint.m */; };
@@ -100,6 +104,8 @@
 /* Begin PBXFileReference section */
 		0670FE79D79167B2EE9B2D2F /* Pods-THKitProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THKitProject.debug.xcconfig"; path = "Target Support Files/Pods-THKitProject/Pods-THKitProject.debug.xcconfig"; sourceTree = "<group>"; };
 		078C8A25D8A8C030AEE3C339 /* Pods-THKitProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THKitProject.release.xcconfig"; path = "Target Support Files/Pods-THKitProject/Pods-THKitProject.release.xcconfig"; sourceTree = "<group>"; };
+		4119D296247F9CCA00F895BE /* lanch-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanch-bg.png"; sourceTree = "<group>"; };
+		4119D298247F9CFB00F895BE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		413284302470EE6700BE462F /* DemoTHSortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTHSortViewController.h; sourceTree = "<group>"; };
 		413284312470EE6700BE462F /* DemoTHSortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTHSortViewController.m; sourceTree = "<group>"; };
 		413284332470EEB500BE462F /* DemoTHCommonTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTHCommonTableController.h; sourceTree = "<group>"; };
@@ -112,6 +118,10 @@
 		4140FDD2247BBA770033CB91 /* DemoTHPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTHPresentViewController.h; sourceTree = "<group>"; };
 		4140FDD3247BBA770033CB91 /* DemoTHPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTHPresentViewController.m; sourceTree = "<group>"; };
 		4140FDD5247BBF200033CB91 /* th-base-del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "th-base-del.png"; sourceTree = "<group>"; };
+		41776FF22481004A0006AE91 /* THTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THTextFieldView.h; sourceTree = "<group>"; };
+		41776FF32481004A0006AE91 /* THTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THTextFieldView.m; sourceTree = "<group>"; };
+		41776FF5248101EE0006AE91 /* DemoTHTextFiledViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTHTextFiledViewController.h; sourceTree = "<group>"; };
+		41776FF6248101EE0006AE91 /* DemoTHTextFiledViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTHTextFiledViewController.m; sourceTree = "<group>"; };
 		41A02ABF2477CB0200478CBE /* THArrowCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = THArrowCell.png; sourceTree = "<group>"; };
 		41A5695C247629B300E4D668 /* DemoMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoMenuController.h; sourceTree = "<group>"; };
 		41A5695D247629B300E4D668 /* DemoMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoMenuController.m; sourceTree = "<group>"; };
@@ -135,11 +145,12 @@
 		41C5B9702470AC2500446DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41C5B9712470AC2500446DB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		41C5B97C2470AC3200446DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41C5B97F2470AC3200446DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41C5B9812470AC3200446DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41C5B9822470AC3200446DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41C5B98E2470C89A00446DB4 /* DemoTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTabController.h; sourceTree = "<group>"; };
 		41C5B98F2470C89A00446DB4 /* DemoTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTabController.m; sourceTree = "<group>"; };
+		41CD7E532484A8DE00D6A608 /* THTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THTextView.h; sourceTree = "<group>"; };
+		41CD7E542484A8DE00D6A608 /* THTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THTextView.m; sourceTree = "<group>"; };
 		41CDA9E82473CB71008899A0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		41CDA9E92473CB71008899A0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		41CDA9EA2473CB71008899A0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -322,6 +333,8 @@
 				413284372470EEDB00BE462F /* DemoTHFormViewController.m */,
 				41BDD9B72474BE4B0045D552 /* DemoTHTextFieldController.h */,
 				41BDD9B82474BE4B0045D552 /* DemoTHTextFieldController.m */,
+				41776FF5248101EE0006AE91 /* DemoTHTextFiledViewController.h */,
+				41776FF6248101EE0006AE91 /* DemoTHTextFiledViewController.m */,
 				41BDD9BA2474C5E60045D552 /* DemoTHTextFieldPickerController.h */,
 				41BDD9BB2474C5E60045D552 /* DemoTHTextFieldPickerController.m */,
 				41BFBC4C247576E0006BFE7A /* DemoTHMessageViewController.h */,
@@ -348,6 +361,7 @@
 		41A569622476649300E4D668 /* Static */ = {
 			isa = PBXGroup;
 			children = (
+				4119D296247F9CCA00F895BE /* lanch-bg.png */,
 				41A02ABF2477CB0200478CBE /* THArrowCell.png */,
 				41A5696824767A5D00E4D668 /* THTextFieldPicker.png */,
 				41A569632476649F00E4D668 /* THMessageView.png */,
@@ -419,9 +433,9 @@
 			children = (
 				41CDAA0B2473CB8F008899A0 /* Globle-pch.pch */,
 				41C5B97C2470AC3200446DB4 /* Assets.xcassets */,
-				41C5B97E2470AC3200446DB4 /* LaunchScreen.storyboard */,
 				41C5B9812470AC3200446DB4 /* Info.plist */,
 				41C5B9822470AC3200446DB4 /* main.m */,
+				4119D298247F9CFB00F895BE /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -550,18 +564,18 @@
 		41CDAA2B2473CC15008899A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				41CDAA322473CC15008899A0 /* THFormBaseCell.h */,
 				41CDAA2C2473CC15008899A0 /* THFormBaseCell.m */,
 				41CDAA2D2473CC15008899A0 /* THFormDateCell.h */,
-				41CDAA2E2473CC15008899A0 /* THFormImageCell.m */,
-				41CDAA2F2473CC15008899A0 /* THFormSwitchCell.m */,
-				41CDAA302473CC15008899A0 /* THFormSelectCell.m */,
-				41CDAA312473CC15008899A0 /* THFormTextCell.m */,
-				41CDAA322473CC15008899A0 /* THFormBaseCell.h */,
-				41CDAA332473CC15008899A0 /* THFormSelectCell.h */,
-				41CDAA342473CC15008899A0 /* THFormSwitchCell.h */,
-				41CDAA352473CC15008899A0 /* THFormImageCell.h */,
 				41CDAA362473CC15008899A0 /* THFormDateCell.m */,
+				41CDAA352473CC15008899A0 /* THFormImageCell.h */,
+				41CDAA2E2473CC15008899A0 /* THFormImageCell.m */,
+				41CDAA332473CC15008899A0 /* THFormSelectCell.h */,
+				41CDAA302473CC15008899A0 /* THFormSelectCell.m */,
+				41CDAA342473CC15008899A0 /* THFormSwitchCell.h */,
+				41CDAA2F2473CC15008899A0 /* THFormSwitchCell.m */,
 				41CDAA372473CC15008899A0 /* THFormTextCell.h */,
+				41CDAA312473CC15008899A0 /* THFormTextCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -648,6 +662,8 @@
 			children = (
 				41CDAA632473CC15008899A0 /* THTextField.h */,
 				41CDAA642473CC15008899A0 /* THTextField.m */,
+				41CD7E532484A8DE00D6A608 /* THTextView.h */,
+				41CD7E542484A8DE00D6A608 /* THTextView.m */,
 			);
 			path = THTextField;
 			sourceTree = "<group>";
@@ -668,6 +684,8 @@
 				41CDAA6C2473CC15008899A0 /* THArrowCell.m */,
 				41CDAA6B2473CC15008899A0 /* THMessageView.h */,
 				41CDAA6E2473CC15008899A0 /* THMessageView.m */,
+				41776FF22481004A0006AE91 /* THTextFieldView.h */,
+				41776FF32481004A0006AE91 /* THTextFieldView.m */,
 			);
 			path = THMessageView;
 			sourceTree = "<group>";
@@ -823,12 +841,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C5B9802470AC3200446DB4 /* LaunchScreen.storyboard in Resources */,
 				41A02AC02477CB0300478CBE /* THArrowCell.png in Resources */,
 				41CDAA8F2473CC15008899A0 /* th-arrow@3x.png in Resources */,
+				4119D297247F9CCB00F895BE /* lanch-bg.png in Resources */,
 				4132843A2470F46F00BE462F /* DemoMenu.json in Resources */,
 				41A5696924767A5D00E4D668 /* THTextFieldPicker.png in Resources */,
 				41C5B97D2470AC3200446DB4 /* Assets.xcassets in Resources */,
+				4119D299247F9CFB00F895BE /* Launch Screen.storyboard in Resources */,
 				41CDAACD2473EBBA008899A0 /* th-base-sort.png in Resources */,
 				41CDAACF2473EBC2008899A0 /* th-base-sortH.png in Resources */,
 				41CDAA902473CC15008899A0 /* th-arrow@2x.png in Resources */,
@@ -887,6 +906,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41CDAA9D2473CC16008899A0 /* THFormTextCell.m in Sources */,
+				41CD7E552484A8DE00D6A608 /* THTextView.m in Sources */,
 				413284382470EEDB00BE462F /* DemoTHFormViewController.m in Sources */,
 				41CDAA9B2473CC16008899A0 /* THFormSwitchCell.m in Sources */,
 				41CDAAA32473CC16008899A0 /* THScreenMultiSelectM.m in Sources */,
@@ -903,6 +923,7 @@
 				41CDAABE2473CC16008899A0 /* THDataImagesCell.m in Sources */,
 				41CDAAA02473CC16008899A0 /* THImagePreview.m in Sources */,
 				41CDAAB82473CC16008899A0 /* THCommonConfigM.m in Sources */,
+				41776FF7248101EE0006AE91 /* DemoTHTextFiledViewController.m in Sources */,
 				41CDAA992473CC16008899A0 /* THFormBaseCell.m in Sources */,
 				41CDAAA92473CC16008899A0 /* THScreenMultiSelectCell.m in Sources */,
 				41CDAA0A2473CB72008899A0 /* MASViewAttribute.m in Sources */,
@@ -950,6 +971,7 @@
 				41CDAA012473CB72008899A0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				41CDAAAD2473CC16008899A0 /* THScreenDateCell.m in Sources */,
 				41BFBC5424757737006BFE7A /* DemoTHScreenViewController.m in Sources */,
+				41776FF42481004A0006AE91 /* THTextFieldView.m in Sources */,
 				41CDAAA42473CC16008899A0 /* THScreenDateM.m in Sources */,
 				41CDAAB52473CC16008899A0 /* THCardView.m in Sources */,
 				41CDAAAC2473CC16008899A0 /* THScreenCardCell.m in Sources */,
@@ -966,17 +988,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		41C5B97E2470AC3200446DB4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41C5B97F2470AC3200446DB4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		41C5B9842470AC3200446DB4 /* Debug */ = {

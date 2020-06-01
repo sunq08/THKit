@@ -57,7 +57,7 @@
     passwordInputM.validType = THFormTextValidNone;
     passwordInputM.mustIn = YES;
     passwordInputM.secureTextEntry = YES;
-    [self.cells addObject:numberInputM];
+    [self.cells addObject:passwordInputM];
     
     THFormSwitchM *switchM = [THFormSwitchM cellModelWithIdentifier:@"switchM"];
     switchM.title = @"开关";

@@ -46,9 +46,9 @@
             "readme":"THTextFieldPicker"
         },
         {
-            "title": "THTextField",
+            "title": "THTextFieldView",
             "remark": "输入栏",
-            "url": "DemoTHTextFieldController",
+            "url": "DemoTHTextFiledViewController",
             "readme":""
         },{
             "title": "THDataPresentView",
