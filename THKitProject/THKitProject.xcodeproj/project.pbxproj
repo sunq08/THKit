@@ -76,7 +76,6 @@
 		41CDAAAC2473CC16008899A0 /* THScreenCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDAA592473CC15008899A0 /* THScreenCardCell.m */; };
 		41CDAAAD2473CC16008899A0 /* THScreenDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDAA5C2473CC15008899A0 /* THScreenDateCell.m */; };
 		41CDAAAE2473CC16008899A0 /* THTextFieldPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDAA5F2473CC15008899A0 /* THTextFieldPicker.m */; };
-		41CDAAAF2473CC16008899A0 /* THDateFieldPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDAA602473CC15008899A0 /* THDateFieldPicker.m */; };
 		41CDAAB02473CC16008899A0 /* THTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDAA642473CC15008899A0 /* THTextField.m */; };
 		41CDAAB12473CC16008899A0 /* THKitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDAA662473CC15008899A0 /* THKitConfig.m */; };
 		41CDAAB32473CC16008899A0 /* THArrowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CDAA6C2473CC15008899A0 /* THArrowCell.m */; };
@@ -238,9 +237,7 @@
 		41CDAA5A2473CC15008899A0 /* THScreenBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THScreenBaseCell.h; sourceTree = "<group>"; };
 		41CDAA5B2473CC15008899A0 /* THScreenMultiSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THScreenMultiSelectCell.h; sourceTree = "<group>"; };
 		41CDAA5C2473CC15008899A0 /* THScreenDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THScreenDateCell.m; sourceTree = "<group>"; };
-		41CDAA5E2473CC15008899A0 /* THDateFieldPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDateFieldPicker.h; sourceTree = "<group>"; };
 		41CDAA5F2473CC15008899A0 /* THTextFieldPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTextFieldPicker.m; sourceTree = "<group>"; };
-		41CDAA602473CC15008899A0 /* THDateFieldPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDateFieldPicker.m; sourceTree = "<group>"; };
 		41CDAA612473CC15008899A0 /* THTextFieldPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTextFieldPicker.h; sourceTree = "<group>"; };
 		41CDAA632473CC15008899A0 /* THTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTextField.h; sourceTree = "<group>"; };
 		41CDAA642473CC15008899A0 /* THTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTextField.m; sourceTree = "<group>"; };
@@ -483,11 +480,9 @@
 				41CDAA7D2473CC15008899A0 /* THDataPresentView */,
 				41CDAA172473CC15008899A0 /* THFormView */,
 				41CDAA3B2473CC15008899A0 /* THImagePreview */,
-				41CDAA682473CC15008899A0 /* THMessageView */,
 				41CDAA3F2473CC15008899A0 /* THScreenView */,
 				41CDAA0D2473CC15008899A0 /* THSortView */,
-				41CDAA622473CC15008899A0 /* THTextField */,
-				41CDAA5D2473CC15008899A0 /* THTextFieldPicker */,
+				41CDAA622473CC15008899A0 /* THViewLibrary */,
 			);
 			path = THKit;
 			sourceTree = "<group>";
@@ -612,17 +607,17 @@
 			isa = PBXGroup;
 			children = (
 				41CDAA442473CC15008899A0 /* THScreenBaseM.h */,
-				41CDAA452473CC15008899A0 /* THScreenDateM.h */,
-				41CDAA462473CC15008899A0 /* THScreenSelectM.m */,
-				41CDAA472473CC15008899A0 /* THScreenMultiSelectM.m */,
-				41CDAA482473CC15008899A0 /* THScreenTextM.h */,
-				41CDAA492473CC15008899A0 /* THScreenCardM.h */,
-				41CDAA4A2473CC15008899A0 /* THScreenDateM.m */,
 				41CDAA4B2473CC15008899A0 /* THScreenBaseM.m */,
-				41CDAA4C2473CC15008899A0 /* THScreenSelectM.h */,
-				41CDAA4D2473CC15008899A0 /* THScreenTextM.m */,
-				41CDAA4E2473CC15008899A0 /* THScreenMultiSelectM.h */,
+				41CDAA492473CC15008899A0 /* THScreenCardM.h */,
 				41CDAA4F2473CC15008899A0 /* THScreenCardM.m */,
+				41CDAA452473CC15008899A0 /* THScreenDateM.h */,
+				41CDAA4A2473CC15008899A0 /* THScreenDateM.m */,
+				41CDAA4E2473CC15008899A0 /* THScreenMultiSelectM.h */,
+				41CDAA472473CC15008899A0 /* THScreenMultiSelectM.m */,
+				41CDAA4C2473CC15008899A0 /* THScreenSelectM.h */,
+				41CDAA462473CC15008899A0 /* THScreenSelectM.m */,
+				41CDAA482473CC15008899A0 /* THScreenTextM.h */,
+				41CDAA4D2473CC15008899A0 /* THScreenTextM.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -646,26 +641,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		41CDAA5D2473CC15008899A0 /* THTextFieldPicker */ = {
+		41CDAA622473CC15008899A0 /* THViewLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				41CDAA5E2473CC15008899A0 /* THDateFieldPicker.h */,
-				41CDAA602473CC15008899A0 /* THDateFieldPicker.m */,
 				41CDAA612473CC15008899A0 /* THTextFieldPicker.h */,
 				41CDAA5F2473CC15008899A0 /* THTextFieldPicker.m */,
-			);
-			path = THTextFieldPicker;
-			sourceTree = "<group>";
-		};
-		41CDAA622473CC15008899A0 /* THTextField */ = {
-			isa = PBXGroup;
-			children = (
+				41CDAA692473CC15008899A0 /* THArrowCell.h */,
+				41CDAA6C2473CC15008899A0 /* THArrowCell.m */,
+				41CDAA6B2473CC15008899A0 /* THMessageView.h */,
+				41CDAA6E2473CC15008899A0 /* THMessageView.m */,
+				41776FF22481004A0006AE91 /* THTextFieldView.h */,
+				41776FF32481004A0006AE91 /* THTextFieldView.m */,
 				41CDAA632473CC15008899A0 /* THTextField.h */,
 				41CDAA642473CC15008899A0 /* THTextField.m */,
 				41CD7E532484A8DE00D6A608 /* THTextView.h */,
 				41CD7E542484A8DE00D6A608 /* THTextView.m */,
 			);
-			path = THTextField;
+			path = THViewLibrary;
 			sourceTree = "<group>";
 		};
 		41CDAA652473CC15008899A0 /* THKitConfig */ = {
@@ -675,19 +667,6 @@
 				41CDAA662473CC15008899A0 /* THKitConfig.m */,
 			);
 			path = THKitConfig;
-			sourceTree = "<group>";
-		};
-		41CDAA682473CC15008899A0 /* THMessageView */ = {
-			isa = PBXGroup;
-			children = (
-				41CDAA692473CC15008899A0 /* THArrowCell.h */,
-				41CDAA6C2473CC15008899A0 /* THArrowCell.m */,
-				41CDAA6B2473CC15008899A0 /* THMessageView.h */,
-				41CDAA6E2473CC15008899A0 /* THMessageView.m */,
-				41776FF22481004A0006AE91 /* THTextFieldView.h */,
-				41776FF32481004A0006AE91 /* THTextFieldView.m */,
-			);
-			path = THMessageView;
 			sourceTree = "<group>";
 		};
 		41CDAA6F2473CC15008899A0 /* THCardLabel */ = {
@@ -704,14 +683,14 @@
 		41CDAA742473CC15008899A0 /* THCommonTable */ = {
 			isa = PBXGroup;
 			children = (
-				41CDAA752473CC15008899A0 /* ThCommonCell.m */,
-				41CDAA762473CC15008899A0 /* THCommonConfigM.m */,
-				41CDAA772473CC15008899A0 /* THCommonCellBut.m */,
-				41CDAA782473CC15008899A0 /* THCommonTable.m */,
 				41CDAA792473CC15008899A0 /* ThCommonCell.h */,
-				41CDAA7A2473CC15008899A0 /* THCommonConfigM.h */,
-				41CDAA7B2473CC15008899A0 /* THCommonTable.h */,
+				41CDAA752473CC15008899A0 /* ThCommonCell.m */,
 				41CDAA7C2473CC15008899A0 /* THCommonCellBut.h */,
+				41CDAA772473CC15008899A0 /* THCommonCellBut.m */,
+				41CDAA7A2473CC15008899A0 /* THCommonConfigM.h */,
+				41CDAA762473CC15008899A0 /* THCommonConfigM.m */,
+				41CDAA7B2473CC15008899A0 /* THCommonTable.h */,
+				41CDAA782473CC15008899A0 /* THCommonTable.m */,
 			);
 			path = THCommonTable;
 			sourceTree = "<group>";
@@ -918,7 +897,6 @@
 				41CDAAB42473CC16008899A0 /* THMessageView.m in Sources */,
 				41CDAA062473CB72008899A0 /* NSArray+MASAdditions.m in Sources */,
 				41A5696124765E6800E4D668 /* DemoBaseController.m in Sources */,
-				41CDAAAF2473CC16008899A0 /* THDateFieldPicker.m in Sources */,
 				41CDAABD2473CC16008899A0 /* THDataSectionHead.m in Sources */,
 				41CDAABE2473CC16008899A0 /* THDataImagesCell.m in Sources */,
 				41CDAAA02473CC16008899A0 /* THImagePreview.m in Sources */,

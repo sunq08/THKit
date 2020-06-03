@@ -27,7 +27,7 @@
     NSError *error;
     id jsonObj = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&error];
     if (!jsonData || error) {
-        //DLog(@"JSON解码失败");
+        NSLog(@"JSON解码失败");
     } else {
         [self drawTabBarViewWithArray:jsonObj];
     }

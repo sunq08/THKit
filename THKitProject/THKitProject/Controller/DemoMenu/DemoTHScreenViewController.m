@@ -88,7 +88,6 @@
     }else if (index == 2){
         THScreenDateM *timeM = [THScreenDateM cellModelWithIdentifier:@"startTime,endTime" title:@"时间"];
         timeM.openRange = YES;
-        timeM.defaultFormat = 3;
         return timeM;
     }else if (index == 3){
         THScreenCardM *classM = [THScreenCardM cellModelWithIdentifier:@"class" title:@"分类"];

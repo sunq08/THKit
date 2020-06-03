@@ -1,5 +1,36 @@
 [{
-    "title": "首页",
+    "title": "Library",
+    "icon" : "tabbar-home",
+    "iconH" : "tabbar-homeH",
+    "menus": [
+        {
+            "title": "THArrowCell",
+            "remark": "带箭头的cell",
+            "url": "DemoTHArrowCellController",
+            "readme":"THArrowCell"
+        },
+        {
+            "title": "THTextFieldPicker",
+            "remark": "选择器",
+            "url": "DemoTHTextFieldPickerController",
+            "readme":"THTextFieldPicker"
+        },
+        {
+            "title": "THTextFieldView",
+            "remark": "输入栏",
+            "url": "DemoTHTextFiledViewController",
+            "readme":""
+        },
+        {
+            "title": "THMessageView",
+            "remark": "详情页面",
+            "url": "DemoTHMessageViewController",
+            "readme":"THMessageView"
+        }
+    ]
+},
+{
+    "title": "components",
     "icon" : "tabbar-home",
     "iconH" : "tabbar-homeH",
     "menus": [
@@ -7,6 +38,12 @@
             "title": "THSortView",
             "remark": "排序布局",
             "url": "DemoTHSortViewController",
+            "readme":""
+        },
+        {
+            "title": "THScreenView",
+            "remark": "筛选弹窗",
+            "url": "DemoTHScreenViewController",
             "readme":""
         },
         {
@@ -22,35 +59,6 @@
             "readme":""
         },
         {
-            "title": "THMessageView",
-            "remark": "详情页面",
-            "url": "DemoTHMessageViewController",
-            "readme":"THMessageView"
-        },
-        {
-            "title": "THArrowCell",
-            "remark": "带箭头的cell",
-            "url": "DemoTHArrowCellController",
-            "readme":"THArrowCell"
-        },
-        {
-            "title": "THScreenView",
-            "remark": "筛选弹窗",
-            "url": "DemoTHScreenViewController",
-            "readme":""
-        },
-        {
-            "title": "THTextFieldPicker",
-            "remark": "选择器",
-            "url": "DemoTHTextFieldPickerController",
-            "readme":"THTextFieldPicker"
-        },
-        {
-            "title": "THTextFieldView",
-            "remark": "输入栏",
-            "url": "DemoTHTextFiledViewController",
-            "readme":""
-        },{
             "title": "THDataPresentView",
             "remark": "资料展示",
             "url": "DemoTHPresentViewController",
@@ -59,7 +67,7 @@
     ]
 },
 {
-    "title": "组合",
+    "title": "practice",
     "icon" : "tabbar-home",
     "iconH" : "tabbar-homeH",
     "menus": [

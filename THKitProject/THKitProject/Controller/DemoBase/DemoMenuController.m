@@ -54,7 +54,6 @@
 }
 
 - (void)initUI{
-    self.title = @"首页";
     self.view.backgroundColor = [UIColor whiteColor];
     
     float screenW = [UIScreen mainScreen].bounds.size.width;

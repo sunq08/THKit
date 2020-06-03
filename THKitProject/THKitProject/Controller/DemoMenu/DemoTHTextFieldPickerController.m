@@ -11,7 +11,6 @@
 @interface DemoTHTextFieldPickerController ()
 @property (nonatomic, strong) THTextFieldPicker *commonPicker;//
 @property (nonatomic, strong) THTextFieldPicker *timePicker;//
-@property (nonatomic, strong) THDateFieldPicker *datePicker;//
 @end
 
 @implementation DemoTHTextFieldPickerController
@@ -43,14 +42,6 @@
     self.timePicker.leftView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 8, 0)];
     self.timePicker.leftViewMode = UITextFieldViewModeAlways;
     [self.view addSubview:self.timePicker];
-    
-    self.datePicker = [[THDateFieldPicker alloc]init];
-    self.datePicker.pickerViewMode = THDateFiledSecondMode;
-    self.datePicker.placeholder = @"功能更强大时间选择器";
-    self.datePicker.backgroundColor = [UIColor whiteColor];
-    self.datePicker.leftView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 8, 0)];
-    self.datePicker.leftViewMode = UITextFieldViewModeAlways;
-    [self.view addSubview:self.datePicker];
 }
 
 - (void)configLayout{
@@ -65,12 +56,6 @@
         make.left.equalTo(self.view).offset(30.0);
         make.right.equalTo(self.view).offset(-30.0);
         make.top.equalTo(self.commonPicker.mas_bottom).offset(10.0);
-        make.height.mas_equalTo(36.0);
-    }];
-    [self.datePicker mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.view).offset(30.0);
-        make.right.equalTo(self.view).offset(-30.0);
-        make.top.equalTo(self.timePicker.mas_bottom).offset(10.0);
         make.height.mas_equalTo(36.0);
     }];
 }
