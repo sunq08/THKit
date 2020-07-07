@@ -12,7 +12,9 @@
 
 @end
 @implementation THTextField
-
++ (instancetype)textField{
+    return [[self alloc]init];
+}
 // 成为第一响应者时注册通知监听文本变化
 - (BOOL)becomeFirstResponder {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textFieldTextChanged:) name:UITextFieldTextDidChangeNotification object:nil];

@@ -17,6 +17,10 @@ CGFloat const kTHTextViewPlaceholderHorizontalMargin = 6.0; ///< placeholder水�
 @implementation THTextView
 
 #pragma mark - Super Methods
+/*便利构造器创建FSTextView实例.*/
++ (instancetype)textView {
+    return [[self alloc] init];
+}
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -143,14 +147,6 @@ CGFloat const kTHTextViewPlaceholderHorizontalMargin = 6.0; ///< placeholder水�
             }
         }
     }
-}
-
-#pragma mark - Public
-
-/*! @brief 便利构造器创建FSTextView实例.
- */
-+ (instancetype)textView {
-    return [[self alloc] init];
 }
 
 @end

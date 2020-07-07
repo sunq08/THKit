@@ -21,6 +21,10 @@ static const CGFloat THMSGIconW    = 21.0;//图标宽高
 @end
 @implementation THArrowCell
 #pragma mark - Super Method
++ (instancetype)arrowCell{
+    return [[self alloc]initWithFrame:CGRectZero];
+}
+
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {

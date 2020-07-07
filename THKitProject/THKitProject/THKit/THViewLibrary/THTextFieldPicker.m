@@ -18,7 +18,7 @@ static NSString  * const formatD = @"yyyy-MM-dd HH:mm:ss";
 @end
 @implementation THTextFieldPicker
 
-+ (instancetype)creatTextFiledWithStyle:(THTextFiledPickerStyle)style{
++ (instancetype)textFiledPickerWithStyle:(THTextFiledPickerStyle)style{
     THTextFieldPicker *textFiled = [[THTextFieldPicker alloc]initWithFrame:CGRectZero style:style];
     return textFiled;
 }
@@ -27,6 +27,7 @@ static NSString  * const formatD = @"yyyy-MM-dd HH:mm:ss";
     [super awakeFromNib];
     [self initBase];
 }
+
 - (id)initWithFrame:(CGRect)frame style:(THTextFiledPickerStyle)style{
     self = [super initWithFrame:frame];
     if (self){

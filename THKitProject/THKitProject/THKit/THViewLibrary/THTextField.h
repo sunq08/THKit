@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface THTextField : UITextField
+/** 快捷创建arrowCell*/
++ (instancetype)textField;
 /** 需要限制的字数*/
 @property (nonatomic,  copy) NSNumber *limitLength;
 

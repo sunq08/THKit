@@ -24,7 +24,7 @@
 }
 
 - (void)initUI{
-    self.commonPicker = [THTextFieldPicker creatTextFiledWithStyle:THTextFiledCommonPicker];
+    self.commonPicker = [THTextFieldPicker textFiledPickerWithStyle:THTextFiledCommonPicker];
     self.commonPicker.placeholder = @"基于textField的选择器";
     self.commonPicker.backgroundColor = [UIColor whiteColor];
     NSMutableArray *pickerData = [NSMutableArray arrayWithCapacity:0];
@@ -35,7 +35,7 @@
     self.commonPicker.leftViewMode = UITextFieldViewModeAlways;
     [self.view addSubview:self.commonPicker];
     
-    self.timePicker = [THTextFieldPicker creatTextFiledWithStyle:THTextFiledTimePicker];
+    self.timePicker = [THTextFieldPicker textFiledPickerWithStyle:THTextFiledTimePicker];
     self.timePicker.dateFormate = @"YYYY.MM.dd";
     self.timePicker.placeholder = @"基于textField的时间选择器";
     self.timePicker.backgroundColor = [UIColor whiteColor];

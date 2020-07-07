@@ -84,7 +84,7 @@
 
 - (THTextFieldPicker *)datePicker{
     if(!_datePicker){
-        _datePicker                 = [THTextFieldPicker creatTextFiledWithStyle:THTextFiledTimePicker];
+        _datePicker                 = [THTextFieldPicker textFiledPickerWithStyle:THTextFiledTimePicker];
         _datePicker.font            = [UIFont systemFontOfSize:13];
         _datePicker.borderStyle     = UITextBorderStyleNone;
         _datePicker.backgroundColor = [UIColor whiteColor];
@@ -99,7 +99,7 @@
 
 - (THTextFieldPicker *)dateEndPicker{
     if(!_dateEndPicker){
-        _dateEndPicker                 = [THTextFieldPicker creatTextFiledWithStyle:THTextFiledTimePicker];
+        _dateEndPicker                 = [THTextFieldPicker textFiledPickerWithStyle:THTextFiledTimePicker];
         _dateEndPicker.font            = [UIFont systemFontOfSize:13];
         _dateEndPicker.borderStyle     = UITextBorderStyleNone;
         _dateEndPicker.backgroundColor = [UIColor whiteColor];

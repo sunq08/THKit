@@ -18,8 +18,7 @@ static const CGFloat THTFViewMargin   = 15.0;//控件间距
 @end
 @implementation THTextFieldView
 + (instancetype)textFieldViewType:(THTextFieldViewType)textFieldViewType{
-    THTextFieldView *textField = [[THTextFieldView alloc]initWithFrame:CGRectZero type:textFieldViewType];
-    return textField;
+    return [[THTextFieldView alloc]initWithFrame:CGRectZero type:textFieldViewType];
 }
 
 - (instancetype)initWithFrame:(CGRect)frame type:(THTextFieldViewType)textFieldViewType{
@@ -62,6 +61,12 @@ static const CGFloat THTFViewMargin   = 15.0;//控件间距
         //纵向居中
         self.mainTitle.center       = CGPointMake(self.mainTitle.center.x, height/2);
         self.mainTF.center          = CGPointMake(self.mainTF.center.x, height/2);
+    }else if (self.type == THTextFieldViewTypeSubTitle){
+        if(self.titleWidth == 0){
+            self.titleWidth = width - 2*THTFViewMargin;
+        }
+        self.mainTitle.frame        = CGRectMake(THTFViewMargin, 0, self.titleWidth, 21);
+        self.mainTF.frame           = CGRectMake(THTFViewMargin, 21, self.titleWidth, 30);
     }
     
     self.bottomLine.frame       = CGRectMake(0, height-1, width, 1);
@@ -73,6 +78,8 @@ static const CGFloat THTFViewMargin   = 15.0;//控件间距
     if(self.type == THTextFieldViewTypePlain){
         [self addSubview:self.mainIcon];
     }else if (self.type == THTextFieldViewTypeTitle){
+        [self addSubview:self.mainTitle];
+    }else if (self.type == THTextFieldViewTypeSubTitle){
         [self addSubview:self.mainTitle];
     }
     [self addSubview:self.mainTF];

@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 typedef enum THTextFieldViewType {
     THTextFieldViewTypePlain          = 0,        //icon default
     THTextFieldViewTypeTitle          = 1,        //title
+    THTextFieldViewTypeSubTitle       = 2,        //sub title
 }THTextFieldViewType;
 @interface THTextFieldView : UIView
 /** @@初始化方法*/
