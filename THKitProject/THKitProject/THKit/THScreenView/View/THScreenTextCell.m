@@ -9,6 +9,7 @@
 #import "THScreenTextCell.h"
 #import "THKitConfig.h"
 #import "THScreenTextM.h"
+#import "Masonry.h"
 @interface THScreenTextCell()<UITextFieldDelegate>
 @property (nonatomic ,strong) UITextField       *mainTF;//tf
 @property (nonatomic ,strong) UITextField       *secondTF;//tf

@@ -8,6 +8,8 @@
 
 #import "THDataImageCell.h"
 #import "THDataM.h"
+#import "Masonry.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 @interface THDataImageCell()
 @property (strong, nonatomic) UILabel       *title;
 @property (strong, nonatomic) UIImageView   *image;

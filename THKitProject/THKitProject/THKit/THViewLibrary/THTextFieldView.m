@@ -5,7 +5,7 @@
 //  Created by 孙强 on 2020/5/29.
 //  Copyright © 2020 sunq. All rights reserved.
 //
-static const CGFloat THTFViewMargin   = 15.0;//控件间距
+
 #import "THTextFieldView.h"
 #import "THTextField.h"
 #import "THKitConfig.h"
@@ -16,6 +16,8 @@ static const CGFloat THTFViewMargin   = 15.0;//控件间距
 @property (nonatomic, strong) THTextField *mainTF;
 @property (nonatomic, strong) UILabel *bottomLine;
 @end
+
+static const CGFloat THTFViewMargin   = 15.0;//控件间距
 @implementation THTextFieldView
 + (instancetype)textFieldViewType:(THTextFieldViewType)textFieldViewType{
     return [[THTextFieldView alloc]initWithFrame:CGRectZero type:textFieldViewType];

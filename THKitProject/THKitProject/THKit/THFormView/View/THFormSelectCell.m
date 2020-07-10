@@ -10,6 +10,7 @@
 #import "THTextFieldPicker.h"
 #import "THFormSelectM.h"
 #import "THKitConfig.h"
+#import "Masonry.h"
 @interface THFormSelectCell()
 @property (nonatomic, strong) THFormSelectM *model;
 @property (nonatomic ,strong) THTextFieldPicker *mainPicker;//picker

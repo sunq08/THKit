@@ -10,7 +10,7 @@
 #import "THTextFieldPicker.h"
 #import "THScreenMultiSelectM.h"
 #import "THKitConfig.h"
-
+#import "Masonry.h"
 @interface THScreenMultiSelectCell()
 @property (nonatomic ,strong) THTextFieldPicker *mainPicker;//
 @property (nonatomic ,strong) THTextFieldPicker *secondPicker;

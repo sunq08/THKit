@@ -9,6 +9,8 @@
 #import "THDataImagesCell.h"
 #import "THDataM.h"
 #import "SDPhotoBrowser.h"
+#import "Masonry.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 @interface THDataImagesCell()<SDPhotoBrowserDelegate>
 @property (strong, nonatomic) UILabel       *title;
 @property (nonatomic, strong) UIScrollView   *scroll;

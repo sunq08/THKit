@@ -4,7 +4,7 @@
 //
 //  Created by SunQ on 2019/9/2.
 //  Copyright © 2019年 itonghui. All rights reserved.
-//  基本信息展示view，主要是文本显示的问题，支持返回行高 未完成
+//  基本信息展示view，主要是文本显示的问题
 
 #import <UIKit/UIKit.h>
 
@@ -37,9 +37,6 @@ typedef enum THMessageViewType {
 
 /** 隐藏下边线，默认为NO*/
 @property (nonatomic) BOOL hideLine;
-
-/** 获取view高度*/
-- (CGFloat)getViewHeight;
 @end
 
 NS_ASSUME_NONNULL_END

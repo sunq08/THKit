@@ -10,6 +10,7 @@
 #import "THFormTextM.h"
 #import "THTextField.h"
 #import "THTextView.h"
+#import "Masonry.h"
 @interface THFormTextCell()<UITextFieldDelegate,UITextViewDelegate>
 @property (nonatomic, strong) THFormTextM *model;
 @property (nonatomic, strong) THTextField *mainTF;//tf

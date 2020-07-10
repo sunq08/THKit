@@ -8,6 +8,7 @@
 
 #import "THFormSwitchCell.h"
 #import "THFormSwitchM.h"
+#import "Masonry.h"
 @interface THFormSwitchCell()
 @property (nonatomic ,strong) UISwitch *mainSwitch;
 @property (nonatomic, strong) THFormSwitchM *model;

@@ -8,6 +8,7 @@
 
 #import "THFormBaseCell.h"
 #import "THFormBaseM.h"
+#import "Masonry.h"
 @interface THFormBaseCell()
 @property (nonatomic, strong) UILabel *titleLab;//title
 @property (nonatomic, strong) UILabel *lineLab;//line

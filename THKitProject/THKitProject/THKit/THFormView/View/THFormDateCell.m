@@ -9,6 +9,7 @@
 #import "THFormDateCell.h"
 #import "THTextFieldPicker.h"
 #import "THFormDateM.h"
+#import "Masonry.h"
 @interface THFormDateCell()
 @property (nonatomic, strong) THFormDateM *model;
 @property (nonatomic ,strong) THTextFieldPicker *mainPicker;//picker

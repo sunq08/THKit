@@ -9,6 +9,7 @@
 #import "THScreenCardCell.h"
 #import "THCardView.h"
 #import "THScreenCardM.h"
+#import "Masonry.h"
 @interface THScreenCardCell()
 @property (nonatomic ,strong) THCardView *cardView;//cardView
 @property (nonatomic,   copy) void (^valueChanged)(NSString *value,NSString *identifier);

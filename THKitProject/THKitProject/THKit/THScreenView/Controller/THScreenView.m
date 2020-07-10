@@ -6,17 +6,10 @@
 //  Copyright © 2019年 itonghui. All rights reserved.
 //
 
-//screen view
-static const CGFloat    THDropViewHeight   = 350.0;//顶部筛选框的高度
-static const CGFloat    THSideViewWidth    = 300.0;//侧边筛选框的宽度
-//static const CGFloat    THCellDefaltHeight = 80.0; //cell默认高度
-//static const CGFloat    THLabelMinWidth    = 48.0; //label最小宽度
-
 #define THScreenResetBgColor        thrgb(206.0,238.0,248.0)//重置按钮背景颜色，默认淡蓝
 #define THScreenResetTextColor      thrgb(0.0,186.0,242.0)//重置按钮字体颜色，默认深蓝
 #define THScreenSureBgColor         thrgb(0.0,186.0,242.0)//确定按钮背景颜色，默认深蓝
 #define THScreenSureTextColor       [UIColor whiteColor]//确定按钮字体颜色，默认白色
-
 
 #import "THScreenView.h"
 #import "THKitConfig.h"
@@ -35,6 +28,10 @@ static const CGFloat    THSideViewWidth    = 300.0;//侧边筛选框的宽度
 @property (nonatomic, assign) NSInteger     cellNum;
 @property (nonatomic, strong) NSMutableArray *models;       //存储数据源
 @end
+//screen view
+static const CGFloat    THDropViewHeight   = 350.0;//顶部筛选框的高度
+static const CGFloat    THSideViewWidth    = 300.0;//侧边筛选框的宽度
+
 @implementation THScreenView
 - (id)initWithFrame:(CGRect)frame style:(THScreenViewStyle)style{
     self = [super initWithFrame:frame];

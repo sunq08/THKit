@@ -6,17 +6,18 @@
 //  Copyright © 2019年 itonghui. All rights reserved.
 //
 
-static const CGFloat THMSGMargin   = 8.0;//控件间距
-static const CGFloat THMSGTitleW   = 72.0;//标题宽度
-
 #import "THMessageView.h"
 #import "THKitConfig.h"
+#import "Masonry.h"
 @interface THMessageView()
 @property (nonatomic, assign) THMessageViewType type;
 @property (nonatomic, strong) UILabel   *titleLab;
 @property (nonatomic, strong) UILabel   *detailLab;
 @property (nonatomic, strong) UILabel   *bottomLine;
 @end
+
+static const CGFloat THMSGMargin   = 8.0;//控件间距
+static const CGFloat THMSGTitleW   = 72.0;//标题宽度
 @implementation THMessageView
 
 + (instancetype)messageViewType:(THMessageViewType)messageViewType{
@@ -133,7 +134,4 @@ static const CGFloat THMSGTitleW   = 72.0;//标题宽度
     self.detailLab.numberOfLines = numberOfLines;
 }
 
-- (CGFloat)getViewHeight{
-    return 44.0;
-}
 @end

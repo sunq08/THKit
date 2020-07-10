@@ -8,6 +8,7 @@
 
 #import "THScreenBaseCell.h"
 #import "THScreenBaseM.h"
+#import "Masonry.h"
 @interface THScreenBaseCell()
 @property (nonatomic,strong) UILabel *titleLab;
 @end

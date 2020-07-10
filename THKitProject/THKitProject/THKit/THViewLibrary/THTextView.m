@@ -17,7 +17,7 @@ CGFloat const kTHTextViewPlaceholderHorizontalMargin = 6.0; ///< placeholder水�
 @implementation THTextView
 
 #pragma mark - Super Methods
-/*便利构造器创建FSTextView实例.*/
+/*便利构造器创建TextView实例.*/
 + (instancetype)textView {
     return [[self alloc] init];
 }

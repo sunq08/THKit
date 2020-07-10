@@ -8,6 +8,8 @@
 
 #import "THCommonTable.h"
 #import "ThCommonCell.h"
+#import "Masonry.h"
+#import <MJRefresh/MJRefresh.h>
 @interface THCommonTable()<UITableViewDelegate,UITableViewDataSource,THCommonCellDelegate>
 @property (nonatomic, strong) UITableView *mainTable;
 @property (nonatomic, strong) THCommonConfigM *configM;

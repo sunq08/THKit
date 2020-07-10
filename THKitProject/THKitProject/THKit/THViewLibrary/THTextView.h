@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface THTextView : UITextView
-/* 便利构造器创建FSTextView实例*/
+/* 便利构造器创建TextView实例*/
 + (instancetype)textView;
 /* 最大限制文本长度, 默认为无穷大(即不限制)*/
 @property (nonatomic, assign) IBInspectable NSUInteger limitLength;

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 typedef enum THCommonConfigStyle {//卡片样式
     THCommonConfigPlain         = 0,//普通样式

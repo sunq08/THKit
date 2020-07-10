@@ -10,15 +10,9 @@
 #import "THKitConfig.h"
 #import "THCommonCellBut.h"
 #import "THCommonConfigM.h"
-static const float           THCommonButW      = 60.0;
-
+#import "Masonry.h"
 @interface ThCommonCell()
-//@property (nonatomic, assign) NSInteger contentNumber;//共有多少个内容行，默认为0
-//@property (nonatomic, assign) BOOL openDouble;//
-//@property (nonatomic, strong) NSArray *buttonList;//
-
 @property (nonatomic, strong) THCommonConfigM *configM;//
-
 @property (nonatomic, strong) UIView *mainView;
 @property (nonatomic, strong) UIView *headView;
 @property (nonatomic, strong) UIView *textView;
@@ -28,6 +22,8 @@ static const float           THCommonButW      = 60.0;
 @property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) UILabel *subTitleLabel;
 @end
+
+static const float           THCommonButW      = 60.0;
 @implementation ThCommonCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier configM:(THCommonConfigM *)configM{

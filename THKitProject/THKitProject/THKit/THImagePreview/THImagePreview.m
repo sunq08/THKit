@@ -9,6 +9,7 @@
 #import "THImagePreview.h"
 #import "THKitConfig.h"
 #import "SDPhotoBrowser.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 @interface THImageItem : UIView
 @property (nonatomic, strong) UIImageView *mainImg;
 @property (nonatomic, strong) UIButton *delbutton;

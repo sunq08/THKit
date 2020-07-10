@@ -7,32 +7,37 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface THDataM : NSObject
-@property (nonatomic,   copy) NSString          *title;
-@property (nonatomic,   copy) NSString          *detail;
-@property (nonatomic,   copy) NSString          *imgUrl;
-@property (nonatomic,   copy) NSMutableArray    *imgUrls;
-@property (nonatomic,   copy) NSString          *htmlStr;
-@property (nonatomic,   copy) NSString          *url;
-@property (nonatomic, assign) NSInteger cellType;//0文字，1图片，2富文本（html文本），3图片数组
 
+#pragma mark - 创建对象方法，必须用以下方法创建，才能识别数据类型
+/* 文字类型*/
++ (THDataM *)title:(NSString *)title detail:(NSString *)detail;
+/* 图片类型**/
++ (THDataM *)title:(NSString *)title imgUrl:(NSString *)imgUrl;
+/* 富文本**/
++ (THDataM *)title:(NSString *)title htmlStr:(NSString *)htmlStr;
+/* 图片数组**/
++ (THDataM *)title:(NSString *)title imgUrls:(NSArray <NSString *>*)imgUrls;
+
+#pragma mark - 可选参数
+/* 详细文字颜色*/
+@property (nonatomic, strong) UIColor         *detailColor;
+/* 详细文字对齐方式*/
 @property (nonatomic, assign) NSTextAlignment textAlignment;//
+/* cell右侧icon样式*/
 @property (nonatomic, assign) UITableViewCellAccessoryType accessoryType;
 
-/**************************可选参数*****************************/
-/** 详细文字颜色*/
-@property (nonatomic,strong) UIColor            *detailColor;
-/* 创建对象方法，必须用以下方法创建，才能识别数据类型**/
-+ (THDataM *)title:(NSString *)title detail:(NSString *)detail;
-/* 创建对象方法，必须用以下方法创建，才能识别数据类型**/
-+ (THDataM *)title:(NSString *)title imgUrl:(NSString *)imgUrl;
-/* 创建对象方法，必须用以下方法创建，才能识别数据类型**/
-+ (THDataM *)title:(NSString *)title htmlStr:(NSString *)htmlStr;
-/* 创建对象方法，必须用以下方法创建，才能识别数据类型**/
-+ (THDataM *)title:(NSString *)title imgUrls:(NSArray <NSString *>*)imgUrls;
+#pragma mark - 只读参数
+@property (nonatomic,   copy, readonly) NSString          *title;
+@property (nonatomic,   copy, readonly) NSString          *detail;
+@property (nonatomic,   copy, readonly) NSString          *imgUrl;
+@property (nonatomic,   copy, readonly) NSMutableArray    *imgUrls;
+@property (nonatomic,   copy, readonly) NSString          *htmlStr;
+//0文字，1图片，2富文本（html文本），3图片数组
+@property (nonatomic, assign, readonly) NSInteger         cellType;
 
 @end
 

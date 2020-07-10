@@ -6,10 +6,6 @@
 //  Copyright © 2019 itonghui. All rights reserved.
 //
 
-static const CGFloat THMSGMargin   = 8.0;//控件间距
-static const CGFloat THMSGTitleW   = 72.0;//标题宽度
-static const CGFloat THMSGIconW    = 21.0;//图标宽高
-
 #import "THArrowCell.h"
 #import "THKitConfig.h"
 @interface THArrowCell()
@@ -19,6 +15,10 @@ static const CGFloat THMSGIconW    = 21.0;//图标宽高
 @property (nonatomic, strong) UILabel     *titleLab;
 @property (nonatomic, strong) UILabel     *detailLab;
 @end
+
+static const CGFloat THMSGMargin   = 8.0;//控件间距
+static const CGFloat THMSGTitleW   = 72.0;//标题宽度
+static const CGFloat THMSGIconW    = 21.0;//图标宽高
 @implementation THArrowCell
 #pragma mark - Super Method
 + (instancetype)arrowCell{

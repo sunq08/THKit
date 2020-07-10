@@ -7,7 +7,7 @@
 //
 
 #import "THKitConfig.h"
-
+#import "Masonry.h"
 @implementation THKitConfig
 + (void)layoutViewRadioWith:(UIView *)view radio:(int)radio{
     [view.layer setCornerRadius:radio];
@@ -29,6 +29,15 @@
         make.bottom.right.equalTo(view);
         make.height.mas_equalTo(1.0);
     }];
+    
+//    NSLayoutConstraint *lineH = [NSLayoutConstraint constraintWithItem:line attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:1.0];
+//    [line addConstraint:lineH];
+//    NSLayoutConstraint *lineB = [NSLayoutConstraint constraintWithItem:line attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:view attribute:NSLayoutAttributeBottom multiplier:1.0f constant:0.0f];
+//    [view addConstraint:lineB];
+//    NSLayoutConstraint *lineR = [NSLayoutConstraint constraintWithItem:line attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:view attribute:NSLayoutAttributeRight multiplier:1.0f constant:0.0f];
+//    [view addConstraint:lineR];
+//    NSLayoutConstraint *lineL = [NSLayoutConstraint constraintWithItem:line attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:view attribute:NSLayoutAttributeLeft multiplier:1.0f constant:margin];
+//    [view addConstraint:lineL];
 }
 + (void)layoutViewHeightWith:(UIView *)view height:(float)height{
     CGRect frame = view.frame;

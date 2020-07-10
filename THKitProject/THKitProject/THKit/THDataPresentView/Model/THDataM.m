@@ -8,6 +8,16 @@
 
 #import "THDataM.h"
 
+@interface THDataM()
+@property (nonatomic,   copy, readwrite) NSString          *title;
+@property (nonatomic,   copy, readwrite) NSString          *detail;
+@property (nonatomic,   copy, readwrite) NSString          *imgUrl;
+@property (nonatomic,   copy, readwrite) NSMutableArray    *imgUrls;
+@property (nonatomic,   copy, readwrite) NSString          *htmlStr;
+//0文字，1图片，2富文本（html文本），3图片数组
+@property (nonatomic, assign, readwrite) NSInteger         cellType;
+@end
+
 @implementation THDataM
 + (THDataM *)title:(NSString *)title detail:(NSString *)detail{
     THDataM *model = [[THDataM alloc]init];
@@ -44,6 +54,7 @@
     if(self){//设置默认值
         self.accessoryType = UITableViewCellAccessoryNone;
         self.textAlignment = NSTextAlignmentLeft;
+        self.detailColor = [UIColor darkGrayColor];
     }
     return self;
 }

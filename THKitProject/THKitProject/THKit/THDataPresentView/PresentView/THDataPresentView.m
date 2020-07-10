@@ -11,6 +11,7 @@
 #import "THDataImageCell.h"
 #import "THDataTextCell.h"
 #import "THKitConfig.h"
+#import "Masonry.h"
 @interface THDataPresentView()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *mainTable;
 @end

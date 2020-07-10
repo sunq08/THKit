@@ -8,6 +8,8 @@
 
 #import "THDataTextCell.h"
 #import "THDataM.h"
+#import "Masonry.h"
+
 @interface THDataTextCell()
 @property (strong, nonatomic) UILabel *detail;
 @property (strong, nonatomic) UILabel *title;
@@ -61,9 +63,7 @@
     if(model.cellType == 0){
         self.title.text = model.title;
         self.detail.text = model.detail?model.detail:@"";
-        if(model.detailColor){
-            self.detail.textColor = model.detailColor;
-        }
+        self.detail.textColor = model.detailColor;
     }else if (model.cellType == 2){
         NSString *htmlStr = model.htmlStr?model.htmlStr:@"";
         //富文本

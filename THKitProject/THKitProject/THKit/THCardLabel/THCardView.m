@@ -9,6 +9,7 @@
 #import "THCardView.h"
 #import "THCardLabel.h"
 #import "THKitConfig.h"
+#import "Masonry.h"
 @interface THCardView()<THCardLabelDelegate>
 @property (nonatomic, strong, readwrite) NSString      *selectValue;
 

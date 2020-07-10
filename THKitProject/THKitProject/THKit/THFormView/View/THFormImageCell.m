@@ -10,6 +10,8 @@
 #import "THImagePreview.h"
 #import "THFormImageM.h"
 #import "THKitConfig.h"
+
+#import "Masonry.h"
 @interface THFormImageCell()
 @property (nonatomic, strong) THFormImageM *model;
 @property (nonatomic, strong) THImagePreview *imagePreview;

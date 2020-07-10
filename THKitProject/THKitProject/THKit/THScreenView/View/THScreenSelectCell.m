@@ -10,6 +10,7 @@
 #import "THTextFieldPicker.h"
 #import "THScreenSelectM.h"
 #import "THKitConfig.h"
+#import "Masonry.h"
 @interface THScreenSelectCell()
 @property (nonatomic ,strong) THTextFieldPicker *mainPicker;//
 @property (nonatomic,   copy) void (^valueChanged)(NSString *value,NSString *identifier);
